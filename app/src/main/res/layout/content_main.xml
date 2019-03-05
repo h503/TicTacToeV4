@@ -1,0 +1,106 @@
+<!-- Parent Layout -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context = ".MainActivity"
+    android:weightSum="3">
+
+    <!-- Include other widget or layout tags here. These are considered
+            "child views" or "children" of the linear layout -->
+
+    <!-- First child layout (Linear Layout) -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <!-- Makes Button equal size with wrap content for layout width and height -->
+
+        <Button
+            android:id="@+id/buttonZero"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/buttonOne"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/buttonTwo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <!-- Second Child Layout (Linear Layout) -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <!-- Makes Button equal size with wrap content for layout width and height -->
+
+        <Button
+            android:id="@+id/buttonThree"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/buttonFour"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/buttonFive"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <!-- Third Child Layout (Linear Layout) -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <!-- Makes Button equal size with wrap content for layout width and height -->
+
+        <Button
+            android:id="@+id/buttonSix"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/buttonSeven"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/buttonEight"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+</LinearLayout>
